@@ -169,7 +169,7 @@ int main(){
 
         // If no match was found after checking the entire database
         if (found == 0){
-            printf("[LOGIN ERROR] EMPLOYEE NOT FOUND IN DATABASE");
+            printf("[LOGIN ERROR] EMPLOYEE NOT FOUND IN DATABASE\n");
         }
 
         return 0;
