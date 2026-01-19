@@ -9,11 +9,11 @@ const unsigned int value = UINT_MAX;
 #define DB_SIZE 3 
 
 
-struct Employee {
+typedef struct Employee {
     char name[50];      // Employee's full name
     short access_lvl;   // Security clearance level (1-10)
     unsigned int id;    // Unique employee identification number
-};
+} Employee;
 
 // Custom input function to securely parse unsigned integers
 int my_scanf(unsigned int *ptr){
@@ -127,7 +127,7 @@ void process_entry(struct Employee *emp){
 
 int main(){
     // Initialize the database with some dummy employee data
-    struct Employee Database[DB_SIZE] = {
+    Employee Database[DB_SIZE] = {
         {"Alice Gabriel", 5, 1001 },  
         {"Bob Chen", 1, 1002 },
         {"Charlie Grey", 7, 1003}
