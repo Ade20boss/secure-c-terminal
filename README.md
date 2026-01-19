@@ -132,7 +132,3 @@ struct Employee {
 ## 🛡️ License
 
 MIT LICENSE - This project is open-source and available for educational purposes.
-
-
-* Create a **Makefile** to go along with this README?
-* Add **inline comments** to the code to explain the math behind `(value - c)/10` more clearly?
