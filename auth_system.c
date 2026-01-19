@@ -111,7 +111,7 @@ char* get_string_safe(char *buffer){
 }
 
 // Function to check if the employee has sufficient privileges
-void process_entry(struct Employee *emp){
+void process_entry(Employee *emp){
     printf("\n--- AUTHENTICATING: %s ---\n", emp->name);
 
     // Compare employee's access level against the minimum required
